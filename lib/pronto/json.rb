@@ -1,7 +1,2 @@
-require "pronto/json/version"
-
-module Pronto
-  module Json
-    # Your code goes here...
-  end
-end
+require 'pronto/json/version'
+require 'pronto/json/runner'
