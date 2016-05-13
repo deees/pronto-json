@@ -40,7 +40,7 @@ module Pronto
         path = line.patch.delta.new_file[:path]
         level = :error
 
-        Message.new(path, line, level, error)
+        Message.new(path, line, level, error, nil, self.class)
       end
 
       def json_file?(path)
